@@ -59,10 +59,10 @@ async function sendPushover(message: string) {
   const user = process.env.PUSHOVER_USER;
   if (!token || !user) return;
   try {
+    const body = new URLSearchParams({ token, user, message });
     await fetch("https://api.pushover.net/1/messages.json", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ token, user, message }),
+      body,
     });
   } catch {
     // ignore pushover failures
