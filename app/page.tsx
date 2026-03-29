@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Chat from "@/components/chat";
 import { Briefcase, GraduationCap, MapPin, Award } from "lucide-react";
 
@@ -7,9 +8,14 @@ export default function Home() {
       <aside className="hidden md:flex w-80 flex-col border-r border-gray-200 bg-gray-50">
         <div className="p-6 space-y-6">
           <div>
-            <div className="w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center text-white text-2xl font-bold">
-              JH
-            </div>
+            <Image
+              src="/headshot.jpg"
+              alt="Joseph Hale"
+              width={80}
+              height={80}
+              className="rounded-full object-cover"
+              priority
+            />
             <h1 className="mt-4 text-xl font-bold text-gray-900">
               Joseph Hale
             </h1>
@@ -75,9 +81,13 @@ export default function Home() {
             </p>
           </div>
           <div className="md:hidden">
-            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs font-bold">
-              JH
-            </div>
+            <Image
+              src="/headshot.jpg"
+              alt="Joseph Hale"
+              width={32}
+              height={32}
+              className="rounded-full object-cover"
+            />
           </div>
         </header>
         <Chat />
