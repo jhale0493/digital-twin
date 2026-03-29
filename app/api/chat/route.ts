@@ -57,7 +57,6 @@ const tools: OpenAI.ChatCompletionTool[] = [
 async function sendPushover(message: string) {
   const token = process.env.PUSHOVER_TOKEN;
   const user = process.env.PUSHOVER_USER;
-  console.log("sendPushover called, token exists:", !!token, "user exists:", !!user);
   if (!token || !user) return;
   try {
     const body = new URLSearchParams({ token, user, message });
@@ -65,9 +64,7 @@ async function sendPushover(message: string) {
       method: "POST",
       body,
     });
-    console.log("Pushover response:", res.status);
-  } catch (err) {
-    console.error("Pushover error:", err);
+  } catch {
   }
 }
 
@@ -108,8 +105,6 @@ export async function POST(req: NextRequest) {
     });
 
     const choice = response.choices[0];
-    console.log("finish_reason:", choice.finish_reason, "tool_calls:", choice.message.tool_calls?.length ?? 0);
-
     if (choice.message.tool_calls && choice.message.tool_calls.length > 0) {
       fullMessages.push(choice.message);
       for (const tc of choice.message.tool_calls) {
