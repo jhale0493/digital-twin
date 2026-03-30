@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Chat from "@/components/chat";
-import { Briefcase, GraduationCap, MapPin, Award } from "lucide-react";
+import { Briefcase, GraduationCap, MapPin, Award, Linkedin } from "lucide-react";
 
 export default function Home() {
   return (
@@ -40,6 +40,17 @@ export default function Home() {
             <div className="flex items-start gap-2">
               <Award className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
               <span>27+ years global experience</span>
+            </div>
+            <div className="flex items-start gap-2">
+              <Linkedin className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
+              <a
+                href="https://linkedin.com/in/josephlhale"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                LinkedIn Profile
+              </a>
             </div>
           </div>
 
