@@ -1,10 +1,10 @@
 export const PROFILE_NAME = "Joseph Hale";
 
-export const SUMMARY = `Joseph Hale is an accomplished Practice Leader at Snowflake, responsible for managing strategic healthcare accounts and overseeing Snowflake transformation customer experience services across AI dataware products. With a focus on understanding customer vision, strategy, and goals, Joseph leads his team in delivering tailored solutions to drive business outcomes and ensure customer satisfaction. He has successfully led projects for over 40 enterprise clients across 11 industries and has a track record of exceeding expectations and delivering exceptional results.
+export const SUMMARY = `Joseph Hale is an accomplished Senior Account Executive at ListEngage, overseeing strategic Financial Services accounts and oversee transformation services related to Salesforce Marketing Cloud, Data Cloud and Agentforce. With a focus on understanding customer vision, strategy, and goals, Joseph leads his team in delivering tailored solutions to drive business outcomes and ensure customer satisfaction. He has successfully led projects for over 40 enterprise clients across 11 industries and has a track record of exceeding expectations and delivering exceptional results.
 Joseph holds a Bachelor of Science in Applied Discrete Mathematics from Auburn University, Auburn, AL. Additionally, he holds a Data Analyst Data Processing Certificate from Columbus State University, Columbus, GA, and is a Certified Scrum Master (CSM) with multiple Salesforce certifications, including being a 3x Salesforce Ranger.
-With over 27 years of global experience, Joseph has held various leadership roles in organizations such as Salesforce, Qlik, Oracle (Insurance), and Verizon Telematics. He has proven expertise in multiple areas, including Account Partner Director, Principal Customer Success Executive, Global Application and Consulting Sales, Portfolio, Delivery, Program Management, and Technical Architecture.
+With over 28 years of global experience, Joseph has held various leadership roles in organizations such as Snowflake, Salesforce, Qlik, Oracle (Insurance), and Verizon Telematics. He has proven expertise in multiple areas, including Senior Practice Leader, Account Partner Director, Principal Customer Success Executive, Global Application and Consulting Sales, Portfolio, Delivery, Program Management, and Technical Architecture.
 Throughout his career, Joseph has received recognition for his outstanding performance, including the Presidents Club award in 2017 and 2019 and being named the Top US Services Sales Manager in the Americas in 2015 and 2016. He is also recognized as a Data Literacy and Product Roadmap Champion.
-In his advice to students, Joseph emphasizes the importance of hard work with authenticity, creativity, and connection. He encourages students to recognize the value of transferable skills, keep an open mind, listen attentively, and prioritize continuous learning. Joseph also recommends reading extensively, citing "The Monk Who Sold His Ferrari" as a particularly enriching book.
+In his advice to students, Joseph emphasizes the importance of hard work with authenticity, creativity, and connection. He encourages students to recognize the value of transferable skills, keep an open mind, listen attentively, and prioritize continuous learning. Joseph also recommends reading extensively, citing "The Monk Who Sold His Ferrari" as a particularly enriching book. His passion is helping customers make innovative vision reality efficiently. 
 Outside of work, Joseph enjoys spending time with his family, engaging in outdoor activities like cycling, hiking, skiing, and yoga, and pursuing interests in baking and collecting vinyl records. He actively contributes to his community by serving as a Boy Scout leader and mentor in leadership programs. He also participates in advisory council boards for educational institutions like Auburn University and Dekalb Technology High School in the Atlanta metro area.
 Joseph is a curious innovator focused on outcomes with a passion for mentoring. His Myers-Briggs personality type is INTJ. He uses AI in his daily and personal work to accelerate and improve the quality of his output. Beyond creating his first digital twin, he recently built Swing Tracker (https://golf-dashboard-peach.vercel.app/), a golf insights React app for analyzing swing data and tracking performance trends.`;
 
@@ -28,10 +28,15 @@ Presidents Club
 Presidents Club
 
 Joseph Hale
-Sr. Practice Leader, Healthcare & Life Sciences at Snowflake
-Alpharetta, Georgia, United States
+Sr. Account Executive, Financial Services at ListEngage
+Johns, Georgia, United States
 
 Experience
+
+ListEngage
+Sr. Account Executive, Financial Services
+Present
+United States
 
 Snowflake
 Sr. Practice Leader

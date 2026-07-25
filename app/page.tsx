@@ -27,7 +27,7 @@ export default function Home() {
           <div className="space-y-3 text-sm text-gray-600">
             <div className="flex items-start gap-2">
               <Briefcase className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
-              <span>Snowflake</span>
+              <span>ListEngage</span>
             </div>
             <div className="flex items-start gap-2">
               <MapPin className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="flex items-start gap-2">
               <Award className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
-              <span>27+ years global experience</span>
+              <span>28+ years global experience</span>
             </div>
             <div className="flex items-start gap-2">
               <Linkedin className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
