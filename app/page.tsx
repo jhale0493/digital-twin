@@ -20,7 +20,7 @@ export default function Home() {
               Joseph Hale
             </h1>
             <p className="text-sm text-gray-500">
-              Sr. Practice Leader, Healthcare & Life Sciences
+              Sr. Account Executive, Financial Services
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
             </div>
             <div className="flex items-start gap-2">
               <MapPin className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
-              <span>Alpharetta, Georgia</span>
+              <span>Johns, Georgia</span>
             </div>
             <div className="flex items-start gap-2">
               <GraduationCap className="h-4 w-4 mt-0.5 text-gray-400 shrink-0" />
